@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 200vh;
+}
+.atras {
+    font-size: 30px;
+    color: rgb(4, 94, 4);
+
+}
+
+#unico{
+    text-decoration: underline;
+    color: purple;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 10px 0px 20px rgba(8, 8, 8);
+}
+
+.fondo{
+    align-items: center;
+    justify-content: center;
+    display: fixed;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-right: 1px;
+    border-bottom: 1px solid black;
+    top: 0;
+}
+.menu{
+    margin-left: 0.1%;
+    margin-right: 0.1%;
+   
+    background-color: rgb(97, 223, 93);
+    border-right: 1px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    transition: all 0.5s ease;
+}
+
+#titulo{
+    
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botones {
+    border-bottom: 5px solid black;
+    position: sticky; /* <-- Cambiar 'display' por 'position' */
+    top: 0px;           /* <-- Indicar dónde se debe fijar al hacer scroll */
+    height: 6%;
+}
+
+.boton{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px;
+    width: 10%;
+    height: 50%;
+    background-color: rgb(97, 223, 93);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.boton_encima{
+    position: fixed;
+    bottom: 45%;
+    right: 1%;
+
+    background-color: rgba(255, 0, 0, 0.675);
+    height: 10%;
+    width: 5%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
